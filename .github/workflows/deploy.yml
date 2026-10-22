@@ -11,7 +11,7 @@ jobs:
     environment: ${{ inputs.environment }}   # production: bật "Required reviewers" trong GitHub Environments
     steps:
       - name: Triển khai qua SSH (rolling từng replica)
-        uses: appleboy/ssh-action@v1.2.0
+        uses: appleboy/ssh-action@v1.2.5
         with:
           host: ${{ secrets.DEPLOY_HOST }}
           username: ${{ secrets.DEPLOY_USER }}
