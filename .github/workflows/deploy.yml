@@ -1,0 +1,28 @@
+name: Deploy
+on:
+  workflow_dispatch:
+    inputs:
+      environment: { description: 'staging hoặc production', required: true, default: staging, type: choice, options: [staging, production] }
+      sha: { description: 'Commit SHA của image (mặc định: HEAD)', required: false }
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: ${{ inputs.environment }}   # production: bật "Required reviewers" trong GitHub Environments
+    steps:
+      - name: Triển khai qua SSH (rolling từng replica)
+        uses: appleboy/ssh-action@v1.2.0
+        with:
+          host: ${{ secrets.DEPLOY_HOST }}
+          username: ${{ secrets.DEPLOY_USER }}
+          key: ${{ secrets.DEPLOY_SSH_KEY }}
+          script: |
+            set -e
+            cd /opt/bosss
+            export WEB_IMAGE=ghcr.io/${{ github.repository_owner }}/bosss-web:${{ inputs.sha || github.sha }}
+            export TOOLS_IMAGE=ghcr.io/${{ github.repository_owner }}/bosss-tools:${{ inputs.sha || github.sha }}
+            C="docker compose -f infra/docker-compose.prod.yml --env-file .env"
+            $C pull web1 web2 migrate
+            $C run --rm migrate
+            for s in web1 web2; do $C up -d --no-deps $s; sleep 20; $C exec -T $s wget -qO- http://127.0.0.1:3000/api/health; done
+            curl -fsS https://${{ vars.SITE_HOST }}/api/health

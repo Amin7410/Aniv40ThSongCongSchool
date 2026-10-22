@@ -1,0 +1,75 @@
+{
+  "name": "bosss",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Phòng truyền thống trực tuyến – Trường THPT Sông Công (1986 – 2026)",
+  "type": "module",
+  "scripts": {
+    "dev": "cross-env NODE_OPTIONS=--no-deprecation next dev",
+    "build": "cross-env NODE_OPTIONS=\"--no-deprecation --max-old-space-size=6000\" next build",
+    "start": "cross-env NODE_OPTIONS=--no-deprecation next start",
+    "worker": "tsx src/worker/index.ts",
+    "payload": "cross-env NODE_OPTIONS=--no-deprecation payload",
+    "generate:types": "cross-env NODE_OPTIONS=--no-deprecation payload generate:types",
+    "generate:importmap": "cross-env NODE_OPTIONS=--no-deprecation payload generate:importmap",
+    "migrate": "cross-env NODE_OPTIONS=--no-deprecation payload migrate",
+    "seed": "cross-env NODE_OPTIONS=--no-deprecation tsx seed/index.ts",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "retention": "cross-env NODE_OPTIONS=--no-deprecation tsx src/jobs/retention.ts",
+    "excel:template": "tsx seed/excel-template.ts",
+    "excel:import": "cross-env NODE_OPTIONS=--no-deprecation tsx seed/excel-import.ts"
+  },
+  "dependencies": {
+    "@fontsource/be-vietnam-pro": "^5.3.0",
+    "@fontsource/cormorant-garamond": "^5.3.0",
+    "@payloadcms/db-postgres": "3.91.0",
+    "@payloadcms/email-nodemailer": "3.91.0",
+    "@payloadcms/next": "3.91.0",
+    "@payloadcms/richtext-lexical": "3.91.0",
+    "@payloadcms/translations": "3.91.0",
+    "@payloadcms/ui": "3.91.0",
+    "cross-env": "10.1.0",
+    "dotenv": "^16.6.1",
+    "graphql": "^16.8.1",
+    "ioredis": "^5.4.2",
+    "next": "16.4.2",
+    "payload": "3.91.0",
+    "qrcode": "^1.5.4",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "sharp": "0.35.5",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.2.0",
+    "@playwright/test": "1.64.1",
+    "@types/node": "^22.20.5",
+    "@types/qrcode": "^1.5.6",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "eslint": "^9.16.0",
+    "eslint-config-next": "16.4.2",
+    "exceljs": "^4.4.0",
+    "sass": "^1.77.4",
+    "tsx": "4.23.15",
+    "typescript": "5.9.3",
+    "vitest": "^5.0.5"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "sharp",
+      "esbuild",
+      "unrs-resolver"
+    ],
+    "overrides": {
+      "dompurify": ">=3.4.16"
+    }
+  },
+  "packageManager": "pnpm@10.28.0"
+}

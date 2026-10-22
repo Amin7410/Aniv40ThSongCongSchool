@@ -1,0 +1,79 @@
+name: CI
+on:
+  pull_request:
+  push: { branches: [main] }
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:16-alpine
+        env: { POSTGRES_DB: bosss, POSTGRES_HOST_AUTH_METHOD: trust }
+        ports: ['5432:5432']
+        options: --health-cmd "pg_isready -U postgres" --health-interval 5s --health-retries 10
+      redis:
+        image: redis:7-alpine
+        ports: ['6379:6379']
+    env:
+      DATABASE_URL: postgres://postgres@localhost:5432/bosss
+      PAYLOAD_SECRET: ci-secret-ci-secret-ci-secret-ci-secret-1
+      HASH_SECRET: ci-hash-ci-hash-ci-hash-ci-hash-ci-hash-12
+      NEXT_PUBLIC_SITE_URL: http://localhost:3000
+      REDIS_URL: redis://localhost:6379
+      MEDIA_DIR: ./.data/media
+      QUARANTINE_DIR: ./.data/quarantine
+      SEED_ADMIN_EMAIL: admin@thd.local
+      SEED_ADMIN_PASSWORD: Admin-Password-2026!
+      PROXY_SHARED_SECRET: ci-proxy-secret
+      E2E_PROXY_SECRET: ci-proxy-secret
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: pnpm }
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm lint
+      - run: pnpm typecheck
+      - run: pnpm test
+      - name: Kiểm tra lỗ hổng phụ thuộc (chặn nếu có mức critical ở runtime)
+        run: pnpm audit --prod --audit-level critical
+      - name: Migration trên CSDL trống
+        run: NODE_ENV=production pnpm migrate
+      - run: pnpm seed --demo
+      - run: pnpm build
+      - name: E2E (Playwright)
+        run: |
+          pnpm exec playwright install --with-deps chromium
+          (pnpm start > app.log 2>&1 &) && npx wait-on -t 60000 http://localhost:3000/api/health
+          pnpm test:e2e
+      - if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: e2e-report
+          path: |
+            playwright-report
+            app.log
+
+  image:
+    needs: test
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions: { contents: read, packages: write }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: docker/login-action@v3
+        with: { registry: ghcr.io, username: '${{ github.actor }}', password: '${{ secrets.GITHUB_TOKEN }}' }
+      - uses: docker/build-push-action@v6
+        with:
+          push: true
+          target: runner
+          tags: ghcr.io/${{ github.repository_owner }}/bosss-web:${{ github.sha }},ghcr.io/${{ github.repository_owner }}/bosss-web:latest
+      - uses: docker/build-push-action@v6
+        with:
+          push: true
+          target: tools
+          tags: ghcr.io/${{ github.repository_owner }}/bosss-tools:${{ github.sha }},ghcr.io/${{ github.repository_owner }}/bosss-tools:latest
+      - name: Quét lỗ hổng image (Trivy)
+        uses: aquasecurity/trivy-action@0.28.0
+        with: { image-ref: 'ghcr.io/${{ github.repository_owner }}/bosss-web:${{ github.sha }}', severity: 'HIGH,CRITICAL', exit-code: '1', ignore-unfixed: true }

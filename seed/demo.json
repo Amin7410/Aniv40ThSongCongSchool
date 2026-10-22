@@ -1,0 +1,1984 @@
+{
+ "exhibits": {
+  "lanh-dao": [
+   {
+    "title": "Nguyễn Văn Hòa",
+    "description": "Hiệu trưởng đầu tiên, cùng những thầy cô đầu tiên đặt nền móng cho nhà trường.",
+    "art": [
+     "p",
+     "Nguyễn Văn Hòa",
+     0,
+     0
+    ],
+    "subtitle": "1986 – 1992",
+    "category": "Hiệu trưởng",
+    "yearStart": 1986,
+    "yearEnd": 1992
+   },
+   {
+    "title": "Trần Đình Lâm",
+    "description": "Khánh thành dãy nhà học hai tầng đầu tiên năm 1996.",
+    "art": [
+     "p",
+     "Trần Đình Lâm",
+     0,
+     0
+    ],
+    "subtitle": "1992 – 1998",
+    "category": "Hiệu trưởng",
+    "yearStart": 1992,
+    "yearEnd": 1998
+   },
+   {
+    "title": "Lê Thị Thu Hà",
+    "description": "Phát triển đội tuyển học sinh giỏi, mở rộng thư viện nhà trường.",
+    "art": [
+     "p",
+     "Lê Thị Thu Hà",
+     1,
+     0
+    ],
+    "subtitle": "1998 – 2004",
+    "category": "Hiệu trưởng",
+    "yearStart": 1998,
+    "yearEnd": 2004
+   },
+   {
+    "title": "Phạm Quang Minh",
+    "description": "Mở rộng khuôn viên, xây nhà đa năng; trường đón nhận Huân chương Lao động hạng Ba năm 2006.",
+    "art": [
+     "p",
+     "Phạm Quang Minh",
+     0,
+     0
+    ],
+    "subtitle": "2004 – 2010",
+    "category": "Hiệu trưởng",
+    "yearStart": 2004,
+    "yearEnd": 2010
+   },
+   {
+    "title": "Hoàng Văn Thắng",
+    "description": "Trường đạt chuẩn quốc gia năm 2015 và đón nhận Huân chương Lao động hạng Nhì năm 2016.",
+    "art": [
+     "p",
+     "Hoàng Văn Thắng",
+     0,
+     0
+    ],
+    "subtitle": "2010 – 2016",
+    "category": "Hiệu trưởng",
+    "yearStart": 2010,
+    "yearEnd": 2016
+   },
+   {
+    "title": "Đỗ Thị Hồng Nhung",
+    "description": "Hoàn thiện khối phòng học bộ môn và sân thể thao.",
+    "art": [
+     "p",
+     "Đỗ Thị Hồng Nhung",
+     1,
+     0
+    ],
+    "subtitle": "2016 – 2021",
+    "category": "Hiệu trưởng",
+    "yearStart": 2016,
+    "yearEnd": 2021
+   },
+   {
+    "title": "Vũ Mạnh Cường",
+    "description": "Triển khai Chương trình giáo dục phổ thông 2018 và chuyển đổi số.",
+    "art": [
+     "p",
+     "Vũ Mạnh Cường",
+     0,
+     0
+    ],
+    "subtitle": "2021 – nay",
+    "category": "Hiệu trưởng",
+    "yearStart": 2021
+   },
+   {
+    "title": "Bùi Văn Sơn",
+    "description": "Phó Hiệu trưởng nhà trường giai đoạn 1986 – 1995.",
+    "art": [
+     "p",
+     "Bùi Văn Sơn",
+     0,
+     0
+    ],
+    "subtitle": "1986 – 1995",
+    "category": "Phó Hiệu trưởng",
+    "yearStart": 1986,
+    "yearEnd": 1995
+   },
+   {
+    "title": "Ngô Thị Lan",
+    "description": "Phó Hiệu trưởng nhà trường giai đoạn 1990 – 2000.",
+    "art": [
+     "p",
+     "Ngô Thị Lan",
+     1,
+     0
+    ],
+    "subtitle": "1990 – 2000",
+    "category": "Phó Hiệu trưởng",
+    "yearStart": 1990,
+    "yearEnd": 2000
+   },
+   {
+    "title": "Đặng Quốc Hưng",
+    "description": "Phó Hiệu trưởng nhà trường giai đoạn 1995 – 2006.",
+    "art": [
+     "p",
+     "Đặng Quốc Hưng",
+     0,
+     0
+    ],
+    "subtitle": "1995 – 2006",
+    "category": "Phó Hiệu trưởng",
+    "yearStart": 1995,
+    "yearEnd": 2006
+   },
+   {
+    "title": "Lý Văn Tuấn",
+    "description": "Phó Hiệu trưởng nhà trường giai đoạn 2000 – 2012.",
+    "art": [
+     "p",
+     "Lý Văn Tuấn",
+     0,
+     0
+    ],
+    "subtitle": "2000 – 2012",
+    "category": "Phó Hiệu trưởng",
+    "yearStart": 2000,
+    "yearEnd": 2012
+   },
+   {
+    "title": "Phan Thị Mai",
+    "description": "Phó Hiệu trưởng nhà trường giai đoạn 2006 – 2017.",
+    "art": [
+     "p",
+     "Phan Thị Mai",
+     1,
+     0
+    ],
+    "subtitle": "2006 – 2017",
+    "category": "Phó Hiệu trưởng",
+    "yearStart": 2006,
+    "yearEnd": 2017
+   },
+   {
+    "title": "Trịnh Đức Long",
+    "description": "Phó Hiệu trưởng nhà trường giai đoạn 2012 – 2022.",
+    "art": [
+     "p",
+     "Trịnh Đức Long",
+     0,
+     0
+    ],
+    "subtitle": "2012 – 2022",
+    "category": "Phó Hiệu trưởng",
+    "yearStart": 2012,
+    "yearEnd": 2022
+   },
+   {
+    "title": "Cao Thị Thanh Hương",
+    "description": "Phó Hiệu trưởng nhà trường giai đoạn 2017 – nay.",
+    "art": [
+     "p",
+     "Cao Thị Thanh Hương",
+     1,
+     0
+    ],
+    "subtitle": "2017 – nay",
+    "category": "Phó Hiệu trưởng",
+    "yearStart": 2017
+   },
+   {
+    "title": "Mai Xuân Bách",
+    "description": "Phó Hiệu trưởng nhà trường giai đoạn 2022 – nay.",
+    "art": [
+     "p",
+     "Mai Xuân Bách",
+     0,
+     0
+    ],
+    "subtitle": "2022 – nay",
+    "category": "Phó Hiệu trưởng",
+    "yearStart": 2022
+   }
+  ],
+  "cuu-hoc-sinh": [
+   {
+    "title": "Nguyễn Minh Khôi",
+    "description": "Phó Giáo sư, Tiến sĩ Vật lí. Học sinh khóa đầu tiên của trường.",
+    "art": [
+     "p",
+     "Nguyễn Minh Khôi",
+     0,
+     0
+    ],
+    "subtitle": "Khóa 1986 – 1989",
+    "category": "Khoa học",
+    "cohort": "Khóa 1986 – 1989"
+   },
+   {
+    "title": "Trịnh Hoàng Long",
+    "description": "Thầy thuốc ưu tú, Trưởng khoa Ngoại một bệnh viện tuyến tỉnh.",
+    "art": [
+     "p",
+     "Trịnh Hoàng Long",
+     0,
+     0
+    ],
+    "subtitle": "Khóa 1987 – 1990",
+    "category": "Y tế",
+    "cohort": "Khóa 1987 – 1990"
+   },
+   {
+    "title": "Trần Thị Ngọc Ánh",
+    "description": "Bác sĩ chuyên khoa II, Giám đốc bệnh viện.",
+    "art": [
+     "p",
+     "Trần Thị Ngọc Ánh",
+     1,
+     0
+    ],
+    "subtitle": "Khóa 1989 – 1992",
+    "category": "Y tế",
+    "cohort": "Khóa 1989 – 1992"
+   },
+   {
+    "title": "Lê Quang Huy",
+    "description": "Đại tá, Quân đội nhân dân Việt Nam.",
+    "art": [
+     "p",
+     "Lê Quang Huy",
+     0,
+     0
+    ],
+    "subtitle": "Khóa 1991 – 1994",
+    "category": "Quân đội – Công an",
+    "cohort": "Khóa 1991 – 1994"
+   },
+   {
+    "title": "Phạm Thu Trang",
+    "description": "Sáng lập và điều hành một doanh nghiệp công nghệ.",
+    "art": [
+     "p",
+     "Phạm Thu Trang",
+     1,
+     0
+    ],
+    "subtitle": "Khóa 1995 – 1998",
+    "category": "Kinh doanh",
+    "cohort": "Khóa 1995 – 1998"
+   },
+   {
+    "title": "Lương Thị Minh Châu",
+    "description": "Nhà giáo ưu tú, giáo viên trường chuyên của tỉnh.",
+    "art": [
+     "p",
+     "Lương Thị Minh Châu",
+     1,
+     0
+    ],
+    "subtitle": "Khóa 1998 – 2001",
+    "category": "Giáo dục",
+    "cohort": "Khóa 1998 – 2001"
+   },
+   {
+    "title": "Hoàng Đức Anh",
+    "description": "Tiến sĩ Khoa học máy tính, nghiên cứu viên tại Nhật Bản.",
+    "art": [
+     "p",
+     "Hoàng Đức Anh",
+     0,
+     0
+    ],
+    "subtitle": "Khóa 2001 – 2004",
+    "category": "Khoa học",
+    "cohort": "Khóa 2001 – 2004"
+   },
+   {
+    "title": "Vũ Thị Hải Yến",
+    "description": "Huy chương Vàng điền kinh tại một kỳ SEA Games.",
+    "art": [
+     "p",
+     "Vũ Thị Hải Yến",
+     1,
+     0
+    ],
+    "subtitle": "Khóa 2004 – 2007",
+    "category": "Văn hóa – Thể thao",
+    "cohort": "Khóa 2004 – 2007"
+   },
+   {
+    "title": "Đỗ Văn Nam",
+    "description": "Cán bộ lãnh đạo chính quyền cơ sở.",
+    "art": [
+     "p",
+     "Đỗ Văn Nam",
+     0,
+     0
+    ],
+    "subtitle": "Khóa 2007 – 2010",
+    "category": "Lãnh đạo – Quản lý",
+    "cohort": "Khóa 2007 – 2010"
+   },
+   {
+    "title": "Ngô Phương Linh",
+    "description": "Giải Nhì học sinh giỏi quốc gia môn Hóa học, du học theo học bổng toàn phần.",
+    "art": [
+     "p",
+     "Ngô Phương Linh",
+     1,
+     0
+    ],
+    "subtitle": "Khóa 2012 – 2015",
+    "category": "Khoa học",
+    "cohort": "Khóa 2012 – 2015"
+   },
+   {
+    "title": "Bùi Gia Bảo",
+    "description": "Thủ khoa khối A00 toàn tỉnh kỳ thi tốt nghiệp THPT.",
+    "art": [
+     "p",
+     "Bùi Gia Bảo",
+     0,
+     0
+    ],
+    "subtitle": "Khóa 2016 – 2019",
+    "category": "Khoa học",
+    "cohort": "Khóa 2016 – 2019"
+   },
+   {
+    "title": "Đinh Khánh Vy",
+    "description": "Giải Nhất cuộc thi sáng tác văn học tuổi học trò cấp tỉnh.",
+    "art": [
+     "p",
+     "Đinh Khánh Vy",
+     1,
+     0
+    ],
+    "subtitle": "Khóa 2019 – 2022",
+    "category": "Văn hóa – Thể thao",
+    "cohort": "Khóa 2019 – 2022"
+   }
+  ],
+  "can-bo": [
+   {
+    "title": "Vũ Mạnh Cường",
+    "description": "Công tác tại trường từ năm 1999.",
+    "art": [
+     "p",
+     "Vũ Mạnh Cường",
+     0,
+     0
+    ],
+    "subtitle": "Hiệu trưởng, giáo viên Vật lí",
+    "category": "Ban Giám hiệu",
+    "staffStatus": "current",
+    "yearStart": 1999
+   },
+   {
+    "title": "Cao Thị Thanh Hương",
+    "description": "Công tác tại trường từ năm 2003.",
+    "art": [
+     "p",
+     "Cao Thị Thanh Hương",
+     1,
+     0
+    ],
+    "subtitle": "Phó Hiệu trưởng, giáo viên Ngữ văn",
+    "category": "Ban Giám hiệu",
+    "staffStatus": "current",
+    "yearStart": 2003
+   },
+   {
+    "title": "Mai Xuân Bách",
+    "description": "Công tác tại trường từ năm 2006.",
+    "art": [
+     "p",
+     "Mai Xuân Bách",
+     0,
+     0
+    ],
+    "subtitle": "Phó Hiệu trưởng, giáo viên Toán",
+    "category": "Ban Giám hiệu",
+    "staffStatus": "current",
+    "yearStart": 2006
+   },
+   {
+    "title": "Đặng Thanh Huyền",
+    "description": "Công tác tại trường từ năm 2013. Giáo viên dạy giỏi cấp tỉnh.",
+    "art": [
+     "p",
+     "Đặng Thanh Huyền0",
+     true,
+     0
+    ],
+    "subtitle": "Giáo viên Toán, Tổ trưởng",
+    "category": "Toán – Tin",
+    "staffStatus": "current",
+    "yearStart": 2013
+   },
+   {
+    "title": "Hồ Hải Yến",
+    "description": "Công tác tại trường từ năm 2004. Giáo viên dạy giỏi cấp tỉnh.",
+    "art": [
+     "p",
+     "Hồ Hải Yến1",
+     true,
+     0
+    ],
+    "subtitle": "Giáo viên Ngữ văn, Tổ trưởng",
+    "category": "Ngữ văn",
+    "staffStatus": "current",
+    "yearStart": 2004
+   },
+   {
+    "title": "Phan Thị Kim Oanh",
+    "description": "Công tác tại trường từ năm 1999. Chiến sĩ thi đua cơ sở.",
+    "art": [
+     "p",
+     "Phan Thị Kim Oanh2",
+     true,
+     0
+    ],
+    "subtitle": "Giáo viên Tiếng Anh, Tổ trưởng",
+    "category": "Ngoại ngữ",
+    "staffStatus": "current",
+    "yearStart": 1999
+   },
+   {
+    "title": "Đỗ Mai Anh",
+    "description": "Công tác tại trường từ năm 2011. Giáo viên dạy giỏi cấp tỉnh.",
+    "art": [
+     "p",
+     "Đỗ Mai Anh3",
+     true,
+     0
+    ],
+    "subtitle": "Giáo viên Vật lí, Tổ trưởng",
+    "category": "Khoa học tự nhiên",
+    "staffStatus": "current",
+    "yearStart": 2011
+   },
+   {
+    "title": "Vũ Hải Yến",
+    "description": "Công tác tại trường từ năm 2022.",
+    "art": [
+     "p",
+     "Vũ Hải Yến4",
+     true,
+     0
+    ],
+    "subtitle": "Giáo viên Lịch sử, Tổ trưởng",
+    "category": "Khoa học xã hội",
+    "staffStatus": "current",
+    "yearStart": 2022
+   },
+   {
+    "title": "Vũ Quang Hải",
+    "description": "Công tác tại trường từ năm 2007. Chiến sĩ thi đua cơ sở.",
+    "art": [
+     "p",
+     "Vũ Quang Hải5",
+     false,
+     0
+    ],
+    "subtitle": "Giáo viên Giáo dục thể chất, Tổ trưởng",
+    "category": "GDTC – QPAN",
+    "staffStatus": "current",
+    "yearStart": 2007
+   },
+   {
+    "title": "Lương Quang Hải",
+    "description": "Công tác tại trường từ năm 2021.",
+    "art": [
+     "p",
+     "Lương Quang Hải6",
+     false,
+     0
+    ],
+    "subtitle": "Nhân viên Kế toán, Tổ trưởng",
+    "category": "Văn phòng",
+    "staffStatus": "current",
+    "yearStart": 2021
+   },
+   {
+    "title": "Nguyễn Thị Kim Oanh",
+    "description": "Công tác tại trường từ năm 2017.",
+    "art": [
+     "p",
+     "Nguyễn Thị Kim Oanh7",
+     true,
+     0
+    ],
+    "subtitle": "Giáo viên Tin học",
+    "category": "Toán – Tin",
+    "staffStatus": "current",
+    "yearStart": 2017
+   },
+   {
+    "title": "Kiều Thị Bích Ngọc",
+    "description": "Công tác tại trường từ năm 2013. Hướng dẫn học sinh đạt giải học sinh giỏi cấp tỉnh.",
+    "art": [
+     "p",
+     "Kiều Thị Bích Ngọc8",
+     true,
+     0
+    ],
+    "subtitle": "Giáo viên Hóa học",
+    "category": "Khoa học tự nhiên",
+    "staffStatus": "current",
+    "yearStart": 2013
+   },
+   {
+    "title": "Kiều Thị Ngọc Lan",
+    "description": "Công tác tại trường từ năm 2023.",
+    "art": [
+     "p",
+     "Kiều Thị Ngọc Lan9",
+     true,
+     0
+    ],
+    "subtitle": "Giáo viên Địa lí",
+    "category": "Khoa học xã hội",
+    "staffStatus": "current",
+    "yearStart": 2023
+   },
+   {
+    "title": "Ngô Thị Ngọc Lan",
+    "description": "Công tác tại trường từ năm 2023. Giáo viên chủ nhiệm giỏi.",
+    "art": [
+     "p",
+     "Ngô Thị Ngọc Lan10",
+     true,
+     0
+    ],
+    "subtitle": "Giáo viên Sinh học",
+    "category": "Khoa học tự nhiên",
+    "staffStatus": "current",
+    "yearStart": 2023
+   },
+   {
+    "title": "Đinh Mạnh Hùng",
+    "description": "Công tác tại trường từ năm 2008. Giáo viên chủ nhiệm giỏi.",
+    "art": [
+     "p",
+     "Đinh Mạnh Hùng11",
+     false,
+     0
+    ],
+    "subtitle": "Giáo viên Giáo dục kinh tế và pháp luật",
+    "category": "Khoa học xã hội",
+    "staffStatus": "current",
+    "yearStart": 2008
+   },
+   {
+    "title": "Đinh Thành Công",
+    "description": "Công tác tại trường từ năm 2014.",
+    "art": [
+     "p",
+     "Đinh Thành Công12",
+     false,
+     0
+    ],
+    "subtitle": "Nhân viên Thư viện",
+    "category": "Văn phòng",
+    "staffStatus": "current",
+    "yearStart": 2014
+   },
+   {
+    "title": "Bùi Văn Quân",
+    "description": "Công tác tại trường từ năm 2001. Giáo viên dạy giỏi cấp tỉnh.",
+    "art": [
+     "p",
+     "Bùi Văn Quân13",
+     false,
+     0
+    ],
+    "subtitle": "Giáo viên Giáo dục quốc phòng và an ninh",
+    "category": "GDTC – QPAN",
+    "staffStatus": "current",
+    "yearStart": 2001
+   },
+   {
+    "title": "Chu Minh Tuấn",
+    "description": "Công tác tại trường từ năm 2000. Hướng dẫn học sinh đạt giải học sinh giỏi cấp tỉnh.",
+    "art": [
+     "p",
+     "Chu Minh Tuấn14",
+     false,
+     0
+    ],
+    "subtitle": "Giáo viên Toán",
+    "category": "Toán – Tin",
+    "staffStatus": "current",
+    "yearStart": 2000
+   },
+   {
+    "title": "Vũ Mai Anh",
+    "description": "Công tác tại trường từ năm 2021. Giáo viên dạy giỏi cấp tỉnh.",
+    "art": [
+     "p",
+     "Vũ Mai Anh15",
+     true,
+     0
+    ],
+    "subtitle": "Giáo viên Ngữ văn",
+    "category": "Ngữ văn",
+    "staffStatus": "current",
+    "yearStart": 2021
+   },
+   {
+    "title": "Phan Văn Khoa",
+    "description": "Công tác tại trường từ năm 2002. Giáo viên chủ nhiệm giỏi.",
+    "art": [
+     "p",
+     "Phan Văn Khoa16",
+     false,
+     0
+    ],
+    "subtitle": "Giáo viên Tiếng Anh",
+    "category": "Ngoại ngữ",
+    "staffStatus": "current",
+    "yearStart": 2002
+   },
+   {
+    "title": "Nguyễn Thị Thu Trang",
+    "description": "Công tác tại trường từ năm 2020.",
+    "art": [
+     "p",
+     "Nguyễn Thị Thu Trang17",
+     true,
+     0
+    ],
+    "subtitle": "Giáo viên Vật lí",
+    "category": "Khoa học tự nhiên",
+    "staffStatus": "current",
+    "yearStart": 2020
+   },
+   {
+    "title": "Nguyễn Đình Phúc",
+    "description": "Công tác tại trường từ năm 2022. Hướng dẫn học sinh đạt giải học sinh giỏi cấp tỉnh.",
+    "art": [
+     "p",
+     "Nguyễn Đình Phúc18",
+     false,
+     0
+    ],
+    "subtitle": "Giáo viên Lịch sử",
+    "category": "Khoa học xã hội",
+    "staffStatus": "current",
+    "yearStart": 2022
+   },
+   {
+    "title": "Nguyễn Thị Ngọc Lan",
+    "description": "Công tác tại trường từ năm 2019.",
+    "art": [
+     "p",
+     "Nguyễn Thị Ngọc Lan19",
+     true,
+     0
+    ],
+    "subtitle": "Giáo viên Giáo dục thể chất",
+    "category": "GDTC – QPAN",
+    "staffStatus": "current",
+    "yearStart": 2019
+   },
+   {
+    "title": "Phạm Thu Thủy",
+    "description": "Công tác tại trường từ năm 2009.",
+    "art": [
+     "p",
+     "Phạm Thu Thủy20",
+     true,
+     0
+    ],
+    "subtitle": "Nhân viên Kế toán",
+    "category": "Văn phòng",
+    "staffStatus": "current",
+    "yearStart": 2009
+   },
+   {
+    "title": "Lương Minh Tuấn",
+    "description": "Công tác tại trường từ năm 2005.",
+    "art": [
+     "p",
+     "Lương Minh Tuấn21",
+     false,
+     0
+    ],
+    "subtitle": "Giáo viên Tin học",
+    "category": "Toán – Tin",
+    "staffStatus": "current",
+    "yearStart": 2005
+   },
+   {
+    "title": "Phạm Mạnh Hùng",
+    "description": "Công tác tại trường từ năm 2022. Giáo viên dạy giỏi cấp tỉnh.",
+    "art": [
+     "p",
+     "Phạm Mạnh Hùng22",
+     false,
+     0
+    ],
+    "subtitle": "Giáo viên Hóa học",
+    "category": "Khoa học tự nhiên",
+    "staffStatus": "current",
+    "yearStart": 2022
+   },
+   {
+    "title": "Lê Thanh Huyền",
+    "description": "Công tác tại trường từ năm 2012. Chiến sĩ thi đua cơ sở.",
+    "art": [
+     "p",
+     "Lê Thanh Huyền23",
+     true,
+     0
+    ],
+    "subtitle": "Giáo viên Địa lí",
+    "category": "Khoa học xã hội",
+    "staffStatus": "current",
+    "yearStart": 2012
+   },
+   {
+    "title": "Đặng Thu Thủy",
+    "description": "Công tác tại trường từ năm 2021. Hướng dẫn học sinh đạt giải học sinh giỏi cấp tỉnh.",
+    "art": [
+     "p",
+     "Đặng Thu Thủy24",
+     true,
+     0
+    ],
+    "subtitle": "Giáo viên Sinh học",
+    "category": "Khoa học tự nhiên",
+    "staffStatus": "current",
+    "yearStart": 2021
+   },
+   {
+    "title": "Bùi Thị Kim Oanh",
+    "description": "Công tác tại trường từ năm 2021.",
+    "art": [
+     "p",
+     "Bùi Thị Kim Oanh25",
+     true,
+     0
+    ],
+    "subtitle": "Giáo viên Giáo dục kinh tế và pháp luật",
+    "category": "Khoa học xã hội",
+    "staffStatus": "current",
+    "yearStart": 2021
+   },
+   {
+    "title": "Trịnh Tiến Dũng",
+    "description": "Công tác tại trường từ năm 2002.",
+    "art": [
+     "p",
+     "Trịnh Tiến Dũng26",
+     false,
+     0
+    ],
+    "subtitle": "Nhân viên Thư viện",
+    "category": "Văn phòng",
+    "staffStatus": "current",
+    "yearStart": 2002
+   },
+   {
+    "title": "Hoàng Thị Hằng",
+    "description": "Công tác tại trường từ năm 1998.",
+    "art": [
+     "p",
+     "Hoàng Thị Hằng27",
+     true,
+     0
+    ],
+    "subtitle": "Giáo viên Giáo dục quốc phòng và an ninh",
+    "category": "GDTC – QPAN",
+    "staffStatus": "current",
+    "yearStart": 1998
+   },
+   {
+    "title": "Dương Tiến Dũng",
+    "description": "Nghỉ hưu năm 2016. Người thầy của nhiều thế hệ học sinh.",
+    "art": [
+     "p",
+     "Dương Tiến Dũngr",
+     false,
+     1
+    ],
+    "subtitle": "Giáo viên Hóa học",
+    "category": "Khoa học tự nhiên",
+    "staffStatus": "retired",
+    "yearStart": 1993,
+    "yearEnd": 2016
+   },
+   {
+    "title": "Đỗ Xuân Trường",
+    "description": "Nghỉ hưu năm 2025. Người thầy của nhiều thế hệ học sinh.",
+    "art": [
+     "p",
+     "Đỗ Xuân Trườngr",
+     false,
+     1
+    ],
+    "subtitle": "Nhân viên Thư viện",
+    "category": "Văn phòng",
+    "staffStatus": "retired",
+    "yearStart": 2003,
+    "yearEnd": 2025
+   },
+   {
+    "title": "Chu Thanh Huyền",
+    "description": "Chuyển công tác năm 2018, nay công tác tại một trường THPT ở Hà Nội.",
+    "art": [
+     "p",
+     "Chu Thanh Huyềnr",
+     true,
+     0
+    ],
+    "subtitle": "Giáo viên Địa lí",
+    "category": "Khoa học xã hội",
+    "staffStatus": "moved",
+    "yearStart": 2005,
+    "yearEnd": 2018
+   },
+   {
+    "title": "Đỗ Văn Quân",
+    "description": "Nghỉ hưu năm 2018. Nhiều năm làm tổ trưởng chuyên môn.",
+    "art": [
+     "p",
+     "Đỗ Văn Quânr",
+     false,
+     1
+    ],
+    "subtitle": "Nhân viên Kế toán",
+    "category": "Văn phòng",
+    "staffStatus": "retired",
+    "yearStart": 1992,
+    "yearEnd": 2018
+   },
+   {
+    "title": "Đỗ Quang Hải",
+    "description": "Nghỉ hưu năm 2025.",
+    "art": [
+     "p",
+     "Đỗ Quang Hảir",
+     false,
+     1
+    ],
+    "subtitle": "Giáo viên Địa lí",
+    "category": "Khoa học xã hội",
+    "staffStatus": "retired",
+    "yearStart": 1998,
+    "yearEnd": 2025
+   },
+   {
+    "title": "Lương Mai Anh",
+    "description": "Chuyển công tác năm 2009, nay công tác tại một trường THPT ở Hà Nội.",
+    "art": [
+     "p",
+     "Lương Mai Anhr",
+     true,
+     0
+    ],
+    "subtitle": "Giáo viên Toán",
+    "category": "Toán – Tin",
+    "staffStatus": "moved",
+    "yearStart": 1999,
+    "yearEnd": 2009
+   },
+   {
+    "title": "Tạ Văn Khoa",
+    "description": "Nghỉ hưu năm 2021. Người thầy của nhiều thế hệ học sinh.",
+    "art": [
+     "p",
+     "Tạ Văn Khoar",
+     false,
+     1
+    ],
+    "subtitle": "Nhân viên Thư viện",
+    "category": "Văn phòng",
+    "staffStatus": "retired",
+    "yearStart": 1992,
+    "yearEnd": 2021
+   },
+   {
+    "title": "Đặng Ngọc Sơn",
+    "description": "Nghỉ hưu năm 2023.",
+    "art": [
+     "p",
+     "Đặng Ngọc Sơnr",
+     false,
+     1
+    ],
+    "subtitle": "Giáo viên Giáo dục quốc phòng và an ninh",
+    "category": "GDTC – QPAN",
+    "staffStatus": "retired",
+    "yearStart": 1990,
+    "yearEnd": 2023
+   },
+   {
+    "title": "Lý Phương Thảo",
+    "description": "Chuyển công tác năm 2014, nay công tác tại một trường THPT ở Hà Nội.",
+    "art": [
+     "p",
+     "Lý Phương Thảor",
+     true,
+     0
+    ],
+    "subtitle": "Giáo viên Toán",
+    "category": "Toán – Tin",
+    "staffStatus": "moved",
+    "yearStart": 2005,
+    "yearEnd": 2014
+   },
+   {
+    "title": "Bùi Xuân Trường",
+    "description": "Nghỉ hưu năm 2023. Người thầy của nhiều thế hệ học sinh.",
+    "art": [
+     "p",
+     "Bùi Xuân Trườngr",
+     false,
+     1
+    ],
+    "subtitle": "Giáo viên Tin học",
+    "category": "Toán – Tin",
+    "staffStatus": "retired",
+    "yearStart": 1995,
+    "yearEnd": 2023
+   },
+   {
+    "title": "Nguyễn Thu Thủy",
+    "description": "Nghỉ hưu năm 2025. Người thầy của nhiều thế hệ học sinh.",
+    "art": [
+     "p",
+     "Nguyễn Thu Thủyr",
+     true,
+     1
+    ],
+    "subtitle": "Giáo viên Tin học",
+    "category": "Toán – Tin",
+    "staffStatus": "retired",
+    "yearStart": 1998,
+    "yearEnd": 2025
+   },
+   {
+    "title": "Ngô Thị Thu Trang",
+    "description": "Chuyển công tác năm 2024, nay công tác tại một trường THPT ở Hà Nội.",
+    "art": [
+     "p",
+     "Ngô Thị Thu Trangr",
+     true,
+     0
+    ],
+    "subtitle": "Giáo viên Sinh học",
+    "category": "Khoa học tự nhiên",
+    "staffStatus": "moved",
+    "yearStart": 2005,
+    "yearEnd": 2024
+   },
+   {
+    "title": "Lý Thị Ngọc Lan",
+    "description": "Nghỉ hưu năm 2024. Người thầy của nhiều thế hệ học sinh.",
+    "art": [
+     "p",
+     "Lý Thị Ngọc Lanr",
+     true,
+     1
+    ],
+    "subtitle": "Giáo viên Vật lí",
+    "category": "Khoa học tự nhiên",
+    "staffStatus": "retired",
+    "yearStart": 1994,
+    "yearEnd": 2024
+   },
+   {
+    "title": "Nguyễn Quang Hải",
+    "description": "Nghỉ hưu năm 2017. Nhà giáo ưu tú.",
+    "art": [
+     "p",
+     "Nguyễn Quang Hảir",
+     false,
+     1
+    ],
+    "subtitle": "Giáo viên Giáo dục quốc phòng và an ninh",
+    "category": "GDTC – QPAN",
+    "staffStatus": "retired",
+    "yearStart": 1987,
+    "yearEnd": 2017
+   },
+   {
+    "title": "Trịnh Quang Hải",
+    "description": "Chuyển công tác năm 1996, nay công tác tại một trường THPT ở Hà Nội.",
+    "art": [
+     "p",
+     "Trịnh Quang Hảir",
+     false,
+     0
+    ],
+    "subtitle": "Giáo viên Địa lí",
+    "category": "Khoa học xã hội",
+    "staffStatus": "moved",
+    "yearStart": 1986,
+    "yearEnd": 1996
+   },
+   {
+    "title": "Đỗ Thu Thủy",
+    "description": "Nghỉ hưu năm 2012. Nhiều năm làm tổ trưởng chuyên môn.",
+    "art": [
+     "p",
+     "Đỗ Thu Thủyr",
+     true,
+     1
+    ],
+    "subtitle": "Giáo viên Giáo dục quốc phòng và an ninh",
+    "category": "GDTC – QPAN",
+    "staffStatus": "retired",
+    "yearStart": 1990,
+    "yearEnd": 2012
+   }
+  ],
+  "bang-khen": [
+   {
+    "title": "Huân chương Lao động hạng Nhì",
+    "description": "Ghi nhận thành tích xuất sắc trong sự nghiệp giáo dục và đào tạo giai đoạn 2011 – 2015.",
+    "awardKind": "medal",
+    "awardedBy": "Chủ tịch nước",
+    "year": 2016
+   },
+   {
+    "title": "Huân chương Lao động hạng Ba",
+    "description": "Ghi nhận thành tích xuất sắc trong sự nghiệp giáo dục và đào tạo giai đoạn 2001 – 2005.",
+    "awardKind": "medal",
+    "awardedBy": "Chủ tịch nước",
+    "year": 2006
+   },
+   {
+    "title": "Cờ thi đua xuất sắc của UBND tỉnh",
+    "description": "Đơn vị dẫn đầu phong trào thi đua khối các trường THPT năm học 2021 – 2022.",
+    "awardKind": "flag",
+    "awardedBy": "Ủy ban nhân dân tỉnh",
+    "year": 2022
+   },
+   {
+    "title": "Cờ thi đua của Bộ Giáo dục và Đào tạo",
+    "description": "Đơn vị xuất sắc trong phong trào thi đua năm học 2012 – 2013.",
+    "awardKind": "flag",
+    "awardedBy": "Bộ Giáo dục và Đào tạo",
+    "year": 2013
+   },
+   {
+    "title": "Cúp Nhất toàn đoàn Hội khỏe Phù Đổng cấp tỉnh",
+    "description": "Đoàn vận động viên của trường giành giải Nhất toàn đoàn.",
+    "awardKind": "cup",
+    "awardedBy": "Sở Giáo dục và Đào tạo",
+    "year": 2019
+   },
+   {
+    "title": "Cúp vô địch giải bóng đá học sinh THPT",
+    "description": "Đội tuyển bóng đá nam của trường vô địch giải cấp tỉnh.",
+    "awardKind": "cup",
+    "awardedBy": "Sở Văn hóa, Thể thao và Du lịch",
+    "year": 2023
+   },
+   {
+    "title": "Cúp giải Nhất hội diễn văn nghệ 20/11",
+    "description": "Tiết mục hợp xướng của giáo viên và học sinh đạt giải Nhất.",
+    "awardKind": "cup",
+    "awardedBy": "Liên đoàn Lao động tỉnh",
+    "year": 2024
+   },
+   {
+    "title": "Bằng khen của Thủ tướng Chính phủ",
+    "description": "Đã có thành tích xuất sắc trong công tác giáo dục, góp phần vào sự nghiệp xây dựng và bảo vệ Tổ quốc.",
+    "awardKind": "cert",
+    "awardedBy": "Thủ tướng Chính phủ",
+    "year": 2011
+   },
+   {
+    "title": "Bằng khen của Bộ Giáo dục và Đào tạo",
+    "description": "Đã có thành tích xuất sắc trong thực hiện nhiệm vụ năm học 2018 – 2019.",
+    "awardKind": "cert",
+    "awardedBy": "Bộ trưởng Bộ Giáo dục và Đào tạo",
+    "year": 2019
+   },
+   {
+    "title": "Công nhận trường đạt chuẩn quốc gia",
+    "description": "Công nhận trường trung học phổ thông đạt chuẩn quốc gia.",
+    "awardKind": "cert",
+    "awardedBy": "Chủ tịch Ủy ban nhân dân tỉnh",
+    "year": 2015
+   },
+   {
+    "title": "Bằng khen của UBND tỉnh",
+    "description": "Đã có thành tích xuất sắc trong phong trào thi đua “Dạy tốt – Học tốt”.",
+    "awardKind": "cert",
+    "awardedBy": "Chủ tịch Ủy ban nhân dân tỉnh",
+    "year": 2009
+   },
+   {
+    "title": "Giấy khen tập thể lao động xuất sắc",
+    "description": "Tập thể lao động xuất sắc năm học 2023 – 2024.",
+    "awardKind": "cert",
+    "awardedBy": "Giám đốc Sở Giáo dục và Đào tạo",
+    "year": 2024
+   }
+  ],
+  "dang-bo": [
+   {
+    "title": "Đại hội Chi bộ nhà trường lần thứ nhất",
+    "description": "Chi bộ những ngày đầu thành lập trường, với số ít đảng viên là cán bộ, giáo viên.",
+    "art": [
+     "s",
+     "Đại hội Chi bộ nhà trường lần thứ nhất1987",
+     "stage",
+     ""
+    ],
+    "year": 1987,
+    "category": "Đại hội",
+    "peopleTags": [
+     "Nguyễn Văn Hòa",
+     "Bùi Văn Sơn"
+    ]
+   },
+   {
+    "title": "Lễ kết nạp đảng viên đầu tiên của Chi bộ",
+    "description": "Kết nạp những giáo viên trẻ đầu tiên vào Đảng.",
+    "art": [
+     "s",
+     "Lễ kết nạp đảng viên đầu tiên của Chi bộ1989",
+     "stage",
+     ""
+    ],
+    "year": 1989,
+    "category": "Công tác đảng viên",
+    "peopleTags": [
+     "Nguyễn Văn Hòa"
+    ]
+   },
+   {
+    "title": "Đại hội Đảng bộ nhiệm kỳ 2005 – 2010",
+    "description": "Chi bộ phát triển thành Đảng bộ cơ sở.",
+    "art": [
+     "s",
+     "Đại hội Đảng bộ nhiệm kỳ 2005 – 20102005",
+     "stage",
+     ""
+    ],
+    "year": 2005,
+    "category": "Đại hội",
+    "peopleTags": [
+     "Phạm Quang Minh",
+     "Đặng Quốc Hưng"
+    ]
+   },
+   {
+    "title": "Đại hội Đảng bộ nhiệm kỳ 2015 – 2020",
+    "description": "Đại hội gắn với mục tiêu xây dựng trường đạt chuẩn quốc gia.",
+    "art": [
+     "s",
+     "Đại hội Đảng bộ nhiệm kỳ 2015 – 20202015",
+     "stage",
+     ""
+    ],
+    "year": 2015,
+    "category": "Đại hội",
+    "peopleTags": [
+     "Hoàng Văn Thắng",
+     "Phan Thị Mai"
+    ]
+   },
+   {
+    "title": "Đại hội Đảng bộ nhiệm kỳ 2020 – 2025",
+    "description": "Đại hội thông qua nghị quyết, bầu Ban Chấp hành Đảng bộ nhiệm kỳ mới.",
+    "art": [
+     "s",
+     "Đại hội Đảng bộ nhiệm kỳ 2020 – 20252020",
+     "stage",
+     ""
+    ],
+    "year": 2020,
+    "category": "Đại hội",
+    "peopleTags": [
+     "Đỗ Thị Hồng Nhung",
+     "Trịnh Đức Long"
+    ]
+   },
+   {
+    "title": "Học tập, quán triệt Nghị quyết Đại hội XIII của Đảng",
+    "description": "Toàn thể đảng viên và cán bộ, giáo viên tham gia hội nghị học tập nghị quyết.",
+    "art": [
+     "s",
+     "Học tập, quán triệt Nghị quyết Đại hội XIII của Đảng2021",
+     "stage",
+     ""
+    ],
+    "year": 2021,
+    "category": "Sinh hoạt chính trị",
+    "peopleTags": []
+   },
+   {
+    "title": "Dâng hương tại khu di tích lịch sử của tỉnh",
+    "description": "Hoạt động về nguồn nhân dịp kỷ niệm ngày thành lập Đảng 3/2.",
+    "art": [
+     "s",
+     "Dâng hương tại khu di tích lịch sử của tỉnh2022",
+     "outdoor",
+     "#1d2533"
+    ],
+    "year": 2022,
+    "category": "Sinh hoạt chính trị",
+    "peopleTags": []
+   },
+   {
+    "title": "Trao Huy hiệu 30 năm tuổi Đảng",
+    "description": "Trao Huy hiệu Đảng cho các đảng viên lâu năm của nhà trường.",
+    "art": [
+     "s",
+     "Trao Huy hiệu 30 năm tuổi Đảng2023",
+     "stage",
+     ""
+    ],
+    "year": 2023,
+    "category": "Công tác đảng viên",
+    "peopleTags": [
+     "Ngô Thị Lan"
+    ]
+   },
+   {
+    "title": "Chuyên đề học tập và làm theo tư tưởng, đạo đức, phong cách Hồ Chí Minh",
+    "description": "Sinh hoạt chuyên đề năm gắn với nhiệm vụ đổi mới dạy và học.",
+    "art": [
+     "s",
+     "Chuyên đề học tập và làm theo tư tưởng, đạo đức, phong cách Hồ Chí Minh2024",
+     "stage",
+     ""
+    ],
+    "year": 2024,
+    "category": "Sinh hoạt chính trị",
+    "peopleTags": []
+   },
+   {
+    "title": "Đại hội Đảng bộ nhiệm kỳ 2025 – 2030",
+    "description": "Đại hội đề ra phương hướng xây dựng nhà trường giai đoạn mới.",
+    "art": [
+     "s",
+     "Đại hội Đảng bộ nhiệm kỳ 2025 – 20302025",
+     "stage",
+     ""
+    ],
+    "year": 2025,
+    "category": "Đại hội",
+    "peopleTags": [
+     "Vũ Mạnh Cường",
+     "Cao Thị Thanh Hương",
+     "Mai Xuân Bách"
+    ]
+   },
+   {
+    "title": "Kết nạp đảng viên là học sinh ưu tú",
+    "description": "Học sinh lớp 12 có thành tích xuất sắc được kết nạp vào Đảng.",
+    "art": [
+     "s",
+     "Kết nạp đảng viên là học sinh ưu tú2025",
+     "stage",
+     ""
+    ],
+    "year": 2025,
+    "category": "Công tác đảng viên",
+    "peopleTags": []
+   }
+  ],
+  "doan": [
+   {
+    "title": "Lễ khai giảng khóa học đầu tiên",
+    "description": "Sân trường đất ngày ấy, những học sinh đầu tiên xếp hàng dưới cờ.",
+    "art": [
+     "s",
+     "Lễ khai giảng khóa học đầu tiên1986",
+     "outdoor",
+     ""
+    ],
+    "year": 1986,
+    "category": "Hoạt động nhà trường",
+    "peopleTags": [
+     "Nguyễn Văn Hòa",
+     "Nguyễn Minh Khôi"
+    ]
+   },
+   {
+    "title": "Đội văn nghệ xung kích của Đoàn trường",
+    "description": "Đội văn nghệ biểu diễn phục vụ các ngày lễ lớn và giao lưu với địa phương.",
+    "art": [
+     "s",
+     "Đội văn nghệ xung kích của Đoàn trường1994",
+     "stage",
+     ""
+    ],
+    "year": 1994,
+    "category": "Đoàn Thanh niên",
+    "peopleTags": [
+     "Lê Quang Huy"
+    ]
+   },
+   {
+    "title": "Hội trại kỷ niệm ngày thành lập Đoàn 26/3",
+    "description": "Các chi đoàn dựng trại, thi cổng trại và đêm lửa trại.",
+    "art": [
+     "s",
+     "Hội trại kỷ niệm ngày thành lập Đoàn 26/32004",
+     "outdoor",
+     "#3b7fd1"
+    ],
+    "year": 2004,
+    "category": "Đoàn Thanh niên",
+    "peopleTags": [
+     "Vũ Thị Hải Yến"
+    ]
+   },
+   {
+    "title": "Hội khỏe Phù Đổng cấp trường",
+    "description": "Các môn điền kinh, bóng đá, cầu lông, kéo co giữa các khối lớp.",
+    "art": [
+     "s",
+     "Hội khỏe Phù Đổng cấp trường2009",
+     "sport",
+     ""
+    ],
+    "year": 2009,
+    "category": "Phong trào thi đua",
+    "peopleTags": [
+     "Vũ Thị Hải Yến"
+    ]
+   },
+   {
+    "title": "Chiến dịch Mùa hè xanh",
+    "description": "Đoàn viên tham gia làm đường, dọn vệ sinh và dạy học cho thiếu nhi.",
+    "art": [
+     "s",
+     "Chiến dịch Mùa hè xanh2013",
+     "outdoor",
+     "#2f8a3c"
+    ],
+    "year": 2013,
+    "category": "Đoàn Thanh niên",
+    "peopleTags": []
+   },
+   {
+    "title": "Ngày hội hiến máu tình nguyện",
+    "description": "Hơn 200 đơn vị máu được cán bộ, giáo viên và học sinh đủ tuổi hiến tặng.",
+    "art": [
+     "s",
+     "Ngày hội hiến máu tình nguyện2018",
+     "outdoor",
+     "#3b7fd1"
+    ],
+    "year": 2018,
+    "category": "Đoàn Thanh niên",
+    "peopleTags": []
+   },
+   {
+    "title": "Hội trại 26/3 năm 2024",
+    "description": "Hội trại truyền thống với chủ đề hướng về 40 năm thành lập trường.",
+    "art": [
+     "s",
+     "Hội trại 26/3 năm 20242024",
+     "outdoor",
+     "#3b7fd1"
+    ],
+    "year": 2024,
+    "category": "Đoàn Thanh niên",
+    "peopleTags": []
+   },
+   {
+    "title": "Mít tinh kỷ niệm Ngày Nhà giáo Việt Nam 20/11",
+    "description": "Học sinh tri ân thầy cô và các thế hệ nhà giáo của trường.",
+    "art": [
+     "s",
+     "Mít tinh kỷ niệm Ngày Nhà giáo Việt Nam 20/112024",
+     "stage",
+     ""
+    ],
+    "year": 2024,
+    "category": "Hoạt động nhà trường",
+    "peopleTags": [
+     "Vũ Mạnh Cường"
+    ]
+   },
+   {
+    "title": "Lễ khai giảng năm học 2025 – 2026",
+    "description": "Năm học thứ 40 của nhà trường.",
+    "art": [
+     "s",
+     "Lễ khai giảng năm học 2025 – 20262025",
+     "outdoor",
+     ""
+    ],
+    "year": 2025,
+    "category": "Hoạt động nhà trường",
+    "peopleTags": [
+     "Vũ Mạnh Cường",
+     "Cao Thị Thanh Hương"
+    ]
+   },
+   {
+    "title": "Giải bóng đá học sinh toàn trường",
+    "description": "Giải đấu thường niên giữa các lớp.",
+    "art": [
+     "s",
+     "Giải bóng đá học sinh toàn trường2025",
+     "sport",
+     ""
+    ],
+    "year": 2025,
+    "category": "Phong trào thi đua",
+    "peopleTags": []
+   },
+   {
+    "title": "Lễ trưởng thành học sinh khối 12",
+    "description": "Học sinh khối 12 nhận lời dặn dò của thầy cô trước khi rời mái trường.",
+    "art": [
+     "s",
+     "Lễ trưởng thành học sinh khối 122025",
+     "stage",
+     ""
+    ],
+    "year": 2025,
+    "category": "Hoạt động nhà trường",
+    "peopleTags": []
+   },
+   {
+    "title": "Hoạt động trải nghiệm, hướng nghiệp",
+    "description": "Học sinh tham quan doanh nghiệp và trường đại học.",
+    "art": [
+     "s",
+     "Hoạt động trải nghiệm, hướng nghiệp2025",
+     "outdoor",
+     ""
+    ],
+    "year": 2025,
+    "category": "Hoạt động nhà trường",
+    "peopleTags": []
+   }
+  ],
+  "co-so-vat-chat": [
+   {
+    "title": "Những ngày đầu thành lập",
+    "description": "Trường học trong dãy nhà cấp bốn mái ngói, tường gạch. Thầy trò cùng nhau san lấp mặt bằng và trồng những hàng cây đầu tiên.",
+    "art": [
+     "b",
+     0
+    ],
+    "subtitle": "1986 – 1995",
+    "facts": [
+     "8 phòng học",
+     "Nhà cấp bốn",
+     "Sân đất"
+    ],
+    "yearStart": 1986
+   },
+   {
+    "title": "Dãy nhà hai tầng đầu tiên",
+    "description": "Dãy nhà hai tầng được khánh thành năm 1996, có thêm thư viện và phòng thí nghiệm.",
+    "art": [
+     "b",
+     1
+    ],
+    "subtitle": "1996 – 2005",
+    "facts": [
+     "16 phòng học",
+     "Thư viện",
+     "Phòng thí nghiệm"
+    ],
+    "yearStart": 1996
+   },
+   {
+    "title": "Mở rộng khuôn viên",
+    "description": "Xây dựng nhà học ba tầng, nhà đa năng và phòng máy tính; khuôn viên được mở rộng, trồng thêm cây xanh.",
+    "art": [
+     "b",
+     2
+    ],
+    "subtitle": "2006 – 2014",
+    "facts": [
+     "Nhà ba tầng",
+     "Nhà đa năng",
+     "Phòng máy tính"
+    ],
+    "yearStart": 2006
+   },
+   {
+    "title": "Đạt chuẩn quốc gia",
+    "description": "Hoàn thiện khối phòng học bộ môn, sân thể thao; năm 2015 trường được công nhận đạt chuẩn quốc gia.",
+    "art": [
+     "b",
+     3
+    ],
+    "subtitle": "2015 – 2020",
+    "facts": [
+     "32 phòng học",
+     "Phòng học bộ môn",
+     "Sân thể thao"
+    ],
+    "yearStart": 2015
+   },
+   {
+    "title": "Hướng tới trường học số",
+    "description": "Lắp đặt phòng học thông minh, mạng Wi-Fi toàn trường và hệ thống điện mặt trời áp mái.",
+    "art": [
+     "b",
+     4
+    ],
+    "subtitle": "2021 – nay",
+    "facts": [
+     "Phòng học thông minh",
+     "Wi-Fi toàn trường",
+     "Điện mặt trời"
+    ],
+    "yearStart": 2021
+   }
+  ],
+  "goc-ky-uc": [
+   {
+    "title": "Buổi lao động san sân trường",
+    "description": "Năm 1987, sân trường còn là bãi đất đồi lổn nhổn đá ong. Cả lớp 10A mang cuốc xẻng từ nhà đi, thầy Hiệu trưởng xắn quần đứng giữa chúng tôi. Ai cũng lấm lem đất đỏ, nhưng chẳng ai muốn về.",
+    "art": [
+     "s",
+     "mem1",
+     "outdoor",
+     ""
+    ],
+    "memoryType": "Ảnh kỷ niệm",
+    "cohort": "Khóa 1986 – 1989",
+    "contributor": "Nguyễn Minh Khôi",
+    "year": 1987
+   },
+   {
+    "title": "Chiếc áo trắng khóa đầu tiên",
+    "description": "Mẹ may chiếc áo bằng vải phin, cổ áo giờ đã ngả vàng. Hôm ra trường, cả lớp ký tên kín sau lưng. Tôi cất nó trong tủ suốt 37 năm, chưa giặt lần nào.",
+    "art": [
+     "k",
+     "kyvat",
+     "mem2"
+    ],
+    "memoryType": "Đồng phục, kỷ vật",
+    "cohort": "Khóa 1986 – 1989",
+    "contributor": "Trần Văn Bình",
+    "year": 1989
+   },
+   {
+    "title": "Báo tường “Mùa tri ân” đạt giải Nhất",
+    "description": "Cả lớp thức đến khuya cắt dán, vẽ tay từng con chữ. Tờ báo tường chào 20/11 năm ấy được giải Nhất, phần thưởng là một túi kẹo lạc chia đều cho 45 đứa.",
+    "art": [
+     "k",
+     "baotuong",
+     "mem3"
+    ],
+    "memoryType": "Báo tường",
+    "cohort": "Khóa 1989 – 1992",
+    "contributor": "Lê Thị Hồng Hạnh",
+    "year": 1990
+   },
+   {
+    "title": "Cuốn lưu bút lớp 12B",
+    "description": "Trang cuối cuốn lưu bút có một dòng của cậu bạn bàn bên: “Mai này đi đâu cũng nhớ về trường mình nhé.” Ba mươi năm sau, lớp tôi vẫn hẹn nhau về trường đúng ngày 20/11.",
+    "art": [
+     "k",
+     "luubut",
+     "mem4"
+    ],
+    "memoryType": "Lưu bút, thư từ",
+    "cohort": "Khóa 1991 – 1994",
+    "contributor": "Phạm Văn Long",
+    "year": 1994
+   },
+   {
+    "title": "Hội trại 26/3 dưới mưa",
+    "description": "Trận mưa rào đổ xuống đúng lúc chấm cổng trại. Cả chi đoàn đứng giữ cột cổng cho khỏi đổ, áo ướt sũng mà vẫn hát vang. Năm đó lớp tôi được giải Nhì, kèm một trận cảm cúm tập thể.",
+    "art": [
+     "s",
+     "mem5",
+     "outdoor",
+     "#3b7fd1"
+    ],
+    "memoryType": "Ảnh kỷ niệm",
+    "cohort": "Khóa 1993 – 1996",
+    "contributor": "Đinh Thị Thu",
+    "year": 1995
+   },
+   {
+    "title": "Giấy khen học sinh giỏi đầu tiên",
+    "description": "Tờ giấy khen đánh máy, dấu đỏ hơi nhòe. Bố tôi đóng khung treo giữa nhà, khách đến chơi ai cũng được giới thiệu. Đó là lần đầu tôi thấy bố khoe về mình.",
+    "art": [
+     "k",
+     "giayto",
+     "mem6"
+    ],
+    "memoryType": "Giấy khen, thẻ học sinh",
+    "cohort": "Khóa 1995 – 1998",
+    "contributor": "Phạm Thu Trang",
+    "year": 1996
+   },
+   {
+    "title": "Đêm văn nghệ chào năm 2000",
+    "description": "Đêm 31/12/1999, cả trường làm văn nghệ đón thiên niên kỷ mới. Sân khấu ghép bằng bàn học, đèn là mấy bóng điện mượn của nhà dân quanh trường. Đến giờ tôi vẫn thuộc bài hát lớp mình biểu diễn.",
+    "art": [
+     "s",
+     "mem7",
+     "stage",
+     ""
+    ],
+    "memoryType": "Ảnh kỷ niệm",
+    "cohort": "Khóa 1998 – 2001",
+    "contributor": "Lương Thị Minh Châu",
+    "year": 1999
+   },
+   {
+    "title": "Báo tường về “mạng Internet”",
+    "description": "Năm 2003, lớp tôi làm báo tường chủ đề “Internet là gì?” khi cả trường mới có năm chiếc máy tính. Hình vẽ chiếc modem kêu tít tít làm thầy dạy Tin cười mãi.",
+    "art": [
+     "k",
+     "baotuong",
+     "mem8"
+    ],
+    "memoryType": "Báo tường",
+    "cohort": "Khóa 2001 – 2004",
+    "contributor": "Hoàng Đức Anh",
+    "year": 2003
+   },
+   {
+    "title": "Áo thi đấu Hội khỏe Phù Đổng",
+    "description": "Chiếc áo đỏ tôi mặc trong lần đầu giành huy chương cấp tỉnh. Thầy thể dục dặn: chạy hết sức, đừng ngoái lại. Đến tận SEA Games tôi vẫn nhớ câu ấy.",
+    "art": [
+     "k",
+     "kyvat",
+     "mem9-j"
+    ],
+    "memoryType": "Đồng phục, kỷ vật",
+    "cohort": "Khóa 2004 – 2007",
+    "contributor": "Vũ Thị Hải Yến",
+    "year": 2006
+   },
+   {
+    "title": "Lá thư gửi cô chủ nhiệm",
+    "description": "Ngày cuối cấp, mỗi đứa góp một dòng thành lá thư gửi cô. Mười lăm năm sau, cô vẫn kẹp lá thư trong cuốn giáo án cũ và đọc lại cho cả lớp nghe trong buổi họp lớp.",
+    "art": [
+     "k",
+     "luubut",
+     "mem10"
+    ],
+    "memoryType": "Lưu bút, thư từ",
+    "cohort": "Khóa 2007 – 2010",
+    "contributor": "Đỗ Văn Nam",
+    "year": 2010
+   },
+   {
+    "title": "Đội tuyển Hóa ôn thi xuyên đêm",
+    "description": "Phòng thí nghiệm sáng đèn đến mười giờ đêm. Cô giáo nấu mì cho cả đội rồi ngồi chấm từng bài. Hôm biết tin đạt giải Nhì quốc gia, cô khóc trước cả chúng tôi.",
+    "art": [
+     "s",
+     "mem11",
+     "stage",
+     ""
+    ],
+    "memoryType": "Ảnh kỷ niệm",
+    "cohort": "Khóa 2012 – 2015",
+    "contributor": "Ngô Phương Linh",
+    "year": 2014
+   },
+   {
+    "title": "Thẻ học sinh năm lớp 10",
+    "description": "Tấm thẻ học sinh ép nhựa, ảnh chụp tóc húi cua. Tôi từng quên thẻ ba lần và bị đội trực tuần ghi tên. Giờ nhìn lại thấy buồn cười vì gương mặt mình nghiêm trọng quá.",
+    "art": [
+     "k",
+     "giayto",
+     "mem12-card"
+    ],
+    "memoryType": "Giấy khen, thẻ học sinh",
+    "cohort": "Khóa 2016 – 2019",
+    "contributor": "Bùi Gia Bảo",
+    "year": 2016
+   },
+   {
+    "title": "Lễ chia tay qua màn hình",
+    "description": "Mùa dịch năm 2021, chúng tôi chia tay nhau qua màn hình máy tính. Cô chủ nhiệm đọc tên từng bạn, ai cũng bật micro để nói một câu. Buổi ấy kéo dài hơn mọi tiết học.",
+    "art": [
+     "s",
+     "mem13",
+     "stage",
+     ""
+    ],
+    "memoryType": "Ảnh kỷ niệm",
+    "cohort": "Khóa 2019 – 2022",
+    "contributor": "Đinh Khánh Vy",
+    "year": 2021
+   },
+   {
+    "title": "Báo tường số chào 20/11",
+    "description": "Lớp tôi làm báo tường có mã QR, quét vào là nghe lời tri ân của cả lớp. Cô Hiệu phó bảo đây là tờ báo tường đầu tiên của trường biết nói.",
+    "art": [
+     "k",
+     "baotuong",
+     "mem14"
+    ],
+    "memoryType": "Báo tường",
+    "cohort": "Khóa 2022 – 2025",
+    "contributor": "Lê Minh Quân",
+    "year": 2024
+   }
+  ]
+ },
+ "milestones": [
+  {
+   "date": "05/07/1986",
+   "text": "Thành lập trường, khai giảng khóa học đầu tiên."
+  },
+  {
+   "date": "1996",
+   "text": "Khánh thành dãy nhà học hai tầng đầu tiên."
+  },
+  {
+   "date": "2006",
+   "text": "Đón nhận Huân chương Lao động hạng Ba."
+  },
+  {
+   "date": "2015",
+   "text": "Được công nhận trường đạt chuẩn quốc gia."
+  },
+  {
+   "date": "2016",
+   "text": "Đón nhận Huân chương Lao động hạng Nhì."
+  },
+  {
+   "date": "2021",
+   "text": "Triển khai chuyển đổi số và Chương trình giáo dục phổ thông 2018."
+  },
+  {
+   "date": "2026",
+   "text": "Kỷ niệm 40 năm thành lập trường."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Trường được thành lập vào ngày nào?",
+   "options": [
+    "05/07/1986",
+    "20/11/1986",
+    "05/09/1985",
+    "02/09/1986"
+   ],
+   "correctIndex": 0,
+   "explanation": "Quyết định thành lập trường ký ngày 05/07/1986."
+  },
+  {
+   "question": "Ai là Hiệu trưởng đầu tiên của trường?",
+   "options": [
+    "Trần Đình Lâm",
+    "Nguyễn Văn Hòa",
+    "Lê Thị Thu Hà",
+    "Phạm Quang Minh"
+   ],
+   "correctIndex": 1,
+   "explanation": "Thầy Nguyễn Văn Hòa là Hiệu trưởng giai đoạn 1986 – 1992."
+  },
+  {
+   "question": "Dãy nhà học hai tầng đầu tiên được khánh thành năm nào?",
+   "options": [
+    "1990",
+    "1996",
+    "2001",
+    "2006"
+   ],
+   "correctIndex": 1,
+   "explanation": "Năm 1996, trường khánh thành dãy nhà hai tầng đầu tiên."
+  },
+  {
+   "question": "Trường được công nhận đạt chuẩn quốc gia năm nào?",
+   "options": [
+    "2010",
+    "2013",
+    "2015",
+    "2019"
+   ],
+   "correctIndex": 2,
+   "explanation": "Trường đạt chuẩn quốc gia năm 2015."
+  },
+  {
+   "question": "Trường đón nhận Huân chương Lao động hạng Nhì năm nào?",
+   "options": [
+    "2006",
+    "2011",
+    "2016",
+    "2021"
+   ],
+   "correctIndex": 2,
+   "explanation": "Huân chương Lao động hạng Nhì được trao năm 2016."
+  },
+  {
+   "question": "Hội trại truyền thống của Đoàn trường gắn với ngày nào?",
+   "options": [
+    "26/3",
+    "19/5",
+    "2/9",
+    "20/11"
+   ],
+   "correctIndex": 0,
+   "explanation": "Ngày 26/3 là ngày thành lập Đoàn Thanh niên Cộng sản Hồ Chí Minh."
+  },
+  {
+   "question": "Năm 2026, trường kỷ niệm bao nhiêu năm thành lập?",
+   "options": [
+    "30 năm",
+    "35 năm",
+    "40 năm",
+    "50 năm"
+   ],
+   "correctIndex": 2,
+   "explanation": "1986 – 2026: tròn 40 năm."
+  },
+  {
+   "question": "Giai đoạn 2021 – nay, cơ sở vật chất của trường hướng tới điều gì?",
+   "options": [
+    "Trường học số",
+    "Xây cổng mới",
+    "Mở rộng sân bóng",
+    "Xây nhà ăn"
+   ],
+   "correctIndex": 0,
+   "explanation": "Phòng học thông minh, Wi-Fi toàn trường và điện mặt trời áp mái."
+  }
+ ],
+ "guestbook": [
+  [
+   "Nguyễn Thu Hà",
+   "Khóa 2008 – 2011",
+   "Chúc mừng mái trường tròn 40 tuổi. Cảm ơn thầy cô đã cho chúng em những năm tháng đẹp nhất."
+  ],
+  [
+   "Trần Quốc Việt",
+   "Khóa 1990 – 1993",
+   "40 năm, mái trường vẫn là nơi để trở về. Chúc trường ngày càng phát triển."
+  ],
+  [
+   "Lê Hoài An",
+   "Lớp 12A1",
+   "Chúc đại lễ thành công tốt đẹp!"
+  ]
+ ],
+ "tributes": [
+  [
+   "lanh-dao",
+   0,
+   "Nguyễn Minh Khôi",
+   "Khóa 1986 – 1989",
+   "Kính thầy, chúng em là lứa học trò đầu tiên của thầy. Những buổi thầy trò cùng san lấp sân trường, em vẫn nhớ mãi."
+  ]
+ ],
+ "donations": [
+  [
+   "Ban liên lạc khóa 1986 – 1989",
+   30000000
+  ],
+  [
+   "Ẩn danh",
+   5000000
+  ],
+  [
+   "Gia đình cựu học sinh Phạm Thu Trang",
+   20000000
+  ],
+  [
+   "Chi đoàn giáo viên",
+   3000000
+  ],
+  [
+   "Ẩn danh",
+   1000000
+  ]
+ ],
+ "pins": [
+  [
+   "ha-noi",
+   "Nguyễn Minh Khôi",
+   "Khóa 1986 – 1989",
+   "Viện Vật lí"
+  ],
+  [
+   "ha-noi",
+   "Đỗ Văn Nam",
+   "Khóa 2007 – 2010",
+   "UBND phường"
+  ],
+  [
+   "tp-hcm",
+   "Phạm Thu Trang",
+   "Khóa 1995 – 1998",
+   "Công ty công nghệ"
+  ],
+  [
+   "thai-nguyen",
+   "Trần Thị Ngọc Ánh",
+   "Khóa 1989 – 1992",
+   "Bệnh viện tỉnh"
+  ],
+  [
+   "tokyo",
+   "Hoàng Đức Anh",
+   "Khóa 2001 – 2004",
+   "Viện nghiên cứu"
+  ],
+  [
+   "melbourne",
+   "Ngô Phương Linh",
+   "Khóa 2012 – 2015",
+   "Đại học Melbourne"
+  ],
+  [
+   "praha",
+   "Lê Văn Thành",
+   "Khóa 1992 – 1995",
+   "Kinh doanh tự do"
+  ],
+  [
+   "berlin",
+   "Vũ Ngọc Mai",
+   "Khóa 2010 – 2013",
+   "Kỹ sư phần mềm"
+  ],
+  [
+   "seoul",
+   "Bùi Thị Hoa",
+   "Khóa 2014 – 2017",
+   "Du học sinh"
+  ],
+  [
+   "da-nang",
+   "Đinh Quang Huy",
+   "Khóa 2005 – 2008",
+   "Khách sạn"
+  ],
+  [
+   "song-cong",
+   "Lương Thị Minh Châu",
+   "Khóa 1998 – 2001",
+   "Trường THPT"
+  ],
+  [
+   "houston",
+   "Trịnh Gia Hân",
+   "Khóa 2003 – 2006",
+   "Kỹ sư dầu khí"
+  ],
+  [
+   "ha-noi",
+   "Bùi Gia Bảo",
+   "Khóa 2016 – 2019",
+   "Sinh viên"
+  ]
+ ]
+}

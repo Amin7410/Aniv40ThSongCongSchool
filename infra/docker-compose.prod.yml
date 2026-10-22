@@ -1,0 +1,113 @@
+# Production trên VPS trong nước. Chạy: docker compose -f infra/docker-compose.prod.yml --env-file .env up -d
+# Chỉ Nginx mở cổng ra ngoài; web/postgres/redis nằm trong mạng nội bộ.
+name: bosss
+
+x-web: &web
+  image: ${WEB_IMAGE:-ghcr.io/thd-cybersecurity/bosss-web:latest}
+  restart: unless-stopped
+  env_file: ../.env
+  environment:
+    NODE_ENV: production
+    MEDIA_DIR: /data/media
+    QUARANTINE_DIR: /data/quarantine
+  volumes:
+    - media:/data/media
+    - quarantine:/data/quarantine
+  depends_on:
+    postgres: { condition: service_healthy }
+    redis: { condition: service_started }
+  networks: [internal]
+  read_only: true
+  tmpfs: [/tmp, /app/.next/cache]
+  security_opt: [no-new-privileges:true]
+  deploy:
+    resources: { limits: { memory: 1536m } }
+
+services:
+  nginx:
+    image: nginx:1.27-alpine
+    restart: unless-stopped
+    ports: ['80:80', '443:443']
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./nginx/site.conf:/etc/nginx/templates/default.conf.template:ro
+      - ./nginx/admin-allow.conf:/etc/nginx/snippets/admin-allow.conf:ro
+      - ./nginx/security-headers.conf:/etc/nginx/snippets/security-headers.conf:ro
+      - ./nginx/static-fallback:/usr/share/nginx/fallback:ro
+      - /etc/letsencrypt:/etc/letsencrypt:ro
+      - /var/www/certbot:/var/www/certbot:ro
+      - nginx-cache:/var/cache/nginx
+    environment:
+      # Ảnh nginx chính thức thay ${PROXY_SHARED_SECRET} trong *.template lúc khởi động
+      PROXY_SHARED_SECRET: ${PROXY_SHARED_SECRET:?đặt PROXY_SHARED_SECRET trong .env}
+      NGINX_ENVSUBST_FILTER: PROXY_SHARED_SECRET
+    depends_on: [web1, web2]
+    networks: [internal]
+
+  web1: *web
+  web2: *web
+
+  migrate:
+    image: ${TOOLS_IMAGE:-ghcr.io/thd-cybersecurity/bosss-tools:latest}
+    env_file: ../.env
+    environment: { NODE_ENV: production }
+    command: ['pnpm', 'migrate']
+    depends_on:
+      postgres: { condition: service_healthy }
+    networks: [internal]
+    profiles: [ops]
+
+  postgres:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: bosss
+      POSTGRES_USER: bosss
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?đặt POSTGRES_PASSWORD trong .env}
+    command: ['postgres', '-c', 'shared_buffers=1GB', '-c', 'max_connections=200', '-c', 'log_min_duration_statement=500']
+    volumes: [pgdata:/var/lib/postgresql/data]
+    healthcheck: { test: ['CMD-SHELL', 'pg_isready -U bosss'], interval: 10s, retries: 5 }
+    networks: [internal]
+
+  redis:
+    image: redis:7-alpine
+    restart: unless-stopped
+    command: ['redis-server', '--appendonly', 'yes', '--maxmemory', '512mb', '--maxmemory-policy', 'noeviction']
+    volumes: [redisdata:/data]
+    networks: [internal]
+
+  # Dọn dữ liệu theo chính sách quyền riêng tư, mỗi ngày một lần
+  retention:
+    image: ${TOOLS_IMAGE:-ghcr.io/thd-cybersecurity/bosss-tools:latest}
+    restart: unless-stopped
+    env_file: ../.env
+    environment: { NODE_ENV: production, MEDIA_DIR: /data/media, QUARANTINE_DIR: /data/quarantine }
+    volumes: [media:/data/media, quarantine:/data/quarantine]
+    command: ['sh', '-c', 'while true; do pnpm retention; sleep 86400; done']
+    depends_on: [postgres]
+    networks: [internal]
+
+  backup:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    env_file: ../.env
+    environment: { PGHOST: postgres, PGUSER: bosss, PGDATABASE: bosss }
+    volumes:
+      - ./backup:/backup:ro
+      - backups:/backups
+      - media:/data/media:ro
+    entrypoint: ['/bin/sh', '/backup/loop.sh']
+    depends_on: [postgres]
+    networks: [internal]
+
+  # Giám sát uptime + cảnh báo (Telegram/Email). Chỉ mở ở localhost của VPS: truy cập qua WireGuard hoặc
+  # `ssh -L 3001:127.0.0.1:3001 deploy@<vps>` rồi mở http://localhost:3001. Thiết lập theo docs/RUNBOOK.md mục 9.
+  uptime:
+    image: louislam/uptime-kuma:1
+    restart: unless-stopped
+    ports: ['127.0.0.1:3001:3001']
+    volumes: [uptime:/app/data]
+    networks: [internal]
+
+volumes: { pgdata: {}, redisdata: {}, media: {}, quarantine: {}, backups: {}, nginx-cache: {}, uptime: {} }
+networks: { internal: {} }
