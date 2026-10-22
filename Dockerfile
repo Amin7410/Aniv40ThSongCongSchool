@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1.7
 # Image chạy non-root, chỉ chứa bản build standalone của Next.js + Payload.
-FROM node:22-alpine AS base
+FROM node:25-alpine AS base
 RUN apk add --no-cache libc6-compat && corepack enable
 
 FROM base AS deps
@@ -22,7 +22,7 @@ RUN apk add --no-cache poppler-utils
 ENV NODE_ENV=production
 CMD ["pnpm", "migrate"]
 
-FROM node:22-alpine AS runner
+FROM node:25-alpine AS runner
 WORKDIR /app
 # poppler: tách PDF kỷ yếu thành ảnh từng trang
 RUN apk add --no-cache poppler-utils
